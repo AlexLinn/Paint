@@ -98,6 +98,7 @@ namespace Paint
                     label1.Text = "Waiting";
                     label1.ForeColor = Color.Black;
                     btnDraw.Enabled = true;
+                    Cursor.Clip = new Rectangle();
                     break; 
             }
             
